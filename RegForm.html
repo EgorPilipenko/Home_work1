@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="logstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+<body>
+<form class="form2" action="#" name="Create Profile" autocomplete="on" enctype="multipart/form-data"
+      method="post">
+    <div class="name">
+        CREATE PROFILE
+    </div>
+    <input class="img" type="image" src="File/NotPhoto.jpg">
+    <input id="upload" type="file">
+    <label for="upload" class="hide">UPLOAD</label>
+    <input class="window1" type="text" placeholder="Name" required autofocus min="2">
+    <input class="window1" type="text" placeholder="LastName" required min="2">
+    <input class="window1" type="tel" placeholder="Phone Number (+375(XX)XXX-XX-XX)" required
+           pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="13" maxlength="13">
+    <p><input class="button1" type="submit" value="CREATE"></p>
+</form>
+</body>
+</html>
