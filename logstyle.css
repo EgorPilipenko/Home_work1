@@ -11,6 +11,8 @@ body{
     border-radius: 2px;
     border: solid grey;
     border-width: 1px;
+    margin-top: 241.165px;
+    margin-bottom: 241.165px;
 }
 .window{
     font-family: 'Poppins', sans-serif;
@@ -40,6 +42,8 @@ body{
     border: solid grey;
     border-width: 1px;
     height:350px;
+    margin-top: 164px;
+    margin-bottom: 164px;
 }
 .window1{
     font-family: 'Poppins', sans-serif;
@@ -85,5 +89,3 @@ body{
 }
 #upload{
     display: none;
-
-}
